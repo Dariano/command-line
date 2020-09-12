@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>before</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm>
+    <connection>scm:git:https://yourgitserver/jenkins-deploy-job-maven.git</connection>
+    <developerConnection>scm:git:https://yourgitserver/jenkins-deploy-job-maven.git</developerConnection>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <jenkins.tasks.Shell>
+      <command>sleep 1</command>
+    </jenkins.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
